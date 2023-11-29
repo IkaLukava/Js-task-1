@@ -5,20 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>js lesson</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../shared/header.css">
 </head>
 <body>
     <!-- ---------header---------- -->
     <nav class="header">
         <div class="header-links">
             <ul>
-                <li><a href="index.html" class="header-link">button-change</a></li>
-                <li><a href="zero.html" class="header-link">Zero-change</a></li>
-                <li><a href="excerpt.html" class="header-link">Excerpt</a></li>
-                <li><a href="square.html" class="header-link">Square</a></li>
+                <li><a href="../index1.html" class="header-link">button-change</a></li>
+                <li><a href="../zero-change/index.html" class="header-link">Zero-change</a></li>
+                <li><a href="/zero-change/index.html" class="header-link">Form</a></li>
+                <li><a href="../square/index.html" class="header-link">Square</a></li>
             </ul>
         </div>
     </nav>
 <!------------------ content--------------- -->
-    <script src="app.js"></script>
+    <div class="wrapper">
+        <form action="">
+            <h1>Form</h1>
+            <div class="registration">
+                <input type="text" placeholder="  Name" required>
+            </div>
+            <div class="registration">
+                <input type="text" placeholder="  lastName" required>
+            </div>
+            <div class="registration">
+                <input type="email" placeholder="  email" required>
+            </div>
+            <div class="registration">
+                <input type="password" placeholder="  password" required>
+            </div>
+            <div class="registration">
+                <input type="password" placeholder="  password second time">
+            </div>
+            <select class="registration1">
+                <option value="">City</option>
+                <option value="city">Tbilisi</option>
+                <option value="city">zugdidi</option>
+                <option value="city">zugdidi</option>
+                <option value="city">zugdidi</option>
+            </select>
+            <button type="submit" class="save" onclick="openPopup()">Save</button>
+            <div class="popup" id="popup">
+                <img src="image/tick">
+                <h3>Successfully Saved!😍</h3>
+                <button type="button" onclick="closePopup()">OK</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="../form/script.js"></script>
 </body>
 </html>
