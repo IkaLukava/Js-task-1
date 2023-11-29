@@ -36,7 +36,7 @@ body{
     margin-bottom: 10px 0;
     border-radius: 10px;
     font-size: 20px;
-    color: #333;
+    color: #555;
     /* border: 1px solid black; */
 }
 
@@ -112,6 +112,25 @@ body{
     top:50%;
     transform: translate(-50%,-50%) scale(1);
 }
+
+#check{
+    margin-right: 6px;
+    gap: 10px 10px;
+    /* pointer-events: none; */
+}
+ 
+label{
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+}
+
+/* #check:checked{
+    accent-color: #7d2ae8;
+}
+#check:checked~label{
+    color: #7d2ae8;
+}  */
 
 
 
