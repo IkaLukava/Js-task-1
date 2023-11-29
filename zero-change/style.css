@@ -1,0 +1,22 @@
+/* ===========ZERO-CHANGE=============== */
+
+.zero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span{
+    padding: 10px;
+}
+
+.btn{
+    background: none;
+    outline: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+

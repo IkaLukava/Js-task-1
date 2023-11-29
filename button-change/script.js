@@ -1,4 +1,5 @@
 //BUTTON1
+
 let button1 = document.getElementById("btn-background");
 
 let changeBackground = () => {
@@ -31,6 +32,8 @@ let changeeverythingcolor = () => {
     button3.style.backgroundColor= `#${anotherColor}`;
 }
 button3.addEventListener("click",changeeverythingcolor);
+
+
 
 
 

@@ -1,0 +1,32 @@
+/* ===========BUTTON-CHANGE=========== */
+
+.change-back{
+    display: flex; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.change-back button{
+    background: blue;
+    color: #fff;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px 10px;
+} 
+
+.change-button button{
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px 10px;
+}
+
+.change-background button{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px 10px;
+}
