@@ -1,29 +1,32 @@
 /* ===========ZERO-CHANGE=============== */
 
-/* *{
+
+*{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
     align-items: center;
-    text-align: center;
-    justify-content: space-between;
-} */
-
-
-
-.zero{
-    width: 90%;
-    max-width: 800px;
-    margin: 0 auto;
-    /* transform: translateY(300px); */
+    justify-content: center;
 }
+
 h1{
-     transform: translateX(180px)translateY(30px);
-     transition: 0.4s;
-     transition-timing-function: ease-in-out;
-     font-size: 35px;
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+    font-size: 35px;
+    /* transform: translateY(100px); */
 }
-
-button{
+.zero{
+    display: flex;
+    transform: translateY(300px);
+}
+.zero h1{
+    display:flex;
+    transform: translateX(195px);
+}
+.zero button{
     margin-top: 8vh;
     width: 80px;
     height: 80px;

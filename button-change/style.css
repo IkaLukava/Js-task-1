@@ -1,11 +1,21 @@
 /* ===========BUTTON-CHANGE=========== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 .all button{
-    justify-content: space-between;
     font-family: 'Poppins'sans-serif;
-    align-items: center;
     width: 200px;
     height: 40px;
     margin-top: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,.8);
+    transform: translateY(100px);
 }

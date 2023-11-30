@@ -24,6 +24,7 @@ body {
     width: 60vw;
     height: 60vh;
     border: 2px solid yellow;
+    position: relative;
 }
 
 @keyframes move{

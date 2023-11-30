@@ -1,12 +1,12 @@
 // ==================ZERO==============
 function changeFontSize(type){
     
-    let ids = ["#h"];
+    const ids = ["#h"];
 
     ids.forEach(id =>{
-        let el = document.querySelector(id);
+        const el = document.querySelector(id);
 
-        let fontSize = window.getComputedStyle(el , null).getPropertyValue("font-size");
+        const fontSize = window.getComputedStyle(el , null).getPropertyValue("font-size");
 
         fontSize = parseFloat(fontSize);
 
@@ -19,18 +19,18 @@ function changeFontSize(type){
 
     });
 }
-let btnClear= document.querySelector('#reset');
-let inputs = document.querySelectorAll('input');
+const btnClear= document.querySelector('#reset');
+const inputs = document.querySelectorAll('input');
 
 btnClear.addEventListener('click',()=>{
     inputs.forEach(input=>input.value='');
 });
 
-const mainTitle = document.querySelector('#h');
+let mainTitle = document.querySelector('#h');
 let curValue = 0 ;
-const btnDecrement = document.querySelector('#decrement');
-const btnReset = document.querySelector('#reset');
-const btnIncrement = document.querySelector('#increment');
+let btnDecrement = document.querySelector('#decrement');
+let btnReset = document.querySelector('#reset');
+let btnIncrement = document.querySelector('#increment');
 
 btnDecrement.addEventListener('click',() =>{
     curValue++ ;
