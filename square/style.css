@@ -12,12 +12,21 @@
     /* animation: move 1s ease-in-out infinite forwards; */
     cursor: pointer;
 }
+
 main{
+    position: absolute;
     height: 100vh;
     width: 100vw;
-    position: relative;
     background-color: black;
 }
+
+.atrakeb{
+    transform: translateX(400px)translateY(150px);
+    width: 60%;
+    height: 60%;
+    border: 2px solid yellow;
+}
+
 @keyframes move{
     0%{
         opacity: 0%;

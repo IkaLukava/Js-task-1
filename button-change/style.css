@@ -1,32 +1,11 @@
 /* ===========BUTTON-CHANGE=========== */
 
-.change-back{
-    display: flex; 
-    text-align: center;
+.all button{
+    justify-content: space-between;
+    font-family: 'Poppins'sans-serif;
     align-items: center;
-    justify-content: center;
-}
-
-.change-back button{
-    background: blue;
-    color: #fff;
-    border-radius: 10px;
+    width: 200px;
     height: 40px;
-    padding: 10px 10px;
-} 
-
-.change-button button{
-    background-color: blue;
-    color: #fff;
-    border-radius: 10px;
-    height: 40px;
-    padding: 10px 10px;
-}
-
-.change-background button{
-    background-color: blue;
-    color: white;
-    border-radius: 10px;
-    height: 40px;
-    padding: 10px 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,.8);
 }
