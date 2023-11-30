@@ -15,11 +15,14 @@ body{
 
 .header{
     display: flex;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
     color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .header-links ul{
