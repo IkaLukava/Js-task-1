@@ -1,32 +1,30 @@
 //BUTTON1
 
-let button1 = document.getElementById("btn-background");
+const button1 = document.getElementById("btn-background");
 
-let changeBackground = () => {
-    let hexVal = Math.floor(Math.random() * 0xffffff).toString(16);
+const changeBackground = () => {
+    const hexVal = Math.floor(Math.random() * 0xffffff).toString(16);
 
     document.body.style.background = `#${hexVal}`;
 }
 button1.addEventListener("click", changeBackground);
 
 //BUTTON2
+const button2 = document.getElementById("button");
 
-let button2 = document.getElementById("button");
-
-let changebuttoncolor = () => {
-    let hexVal = Math.floor(Math.random() * 0xffffff).toString(16);
+const changebuttoncolor = () => {
+    const hexVal = Math.floor(Math.random() * 0xffffff).toString(16);
 
     button2.style.backgroundColor = `#${hexVal}`;
 }
 button2.addEventListener("click",changebuttoncolor );
 
 //BUTTON3
+const button3 = document.getElementById("changeeverything");
 
-let button3 = document.getElementById("changeeverything");
-
-let changeeverythingcolor = () => {
-    let hexVal =Math.floor(Math.random() * 0xffffff).toString(16);
-    let anotherColor = Math.floor(Math.random() * 0xffffff).toString(16);
+const changeeverythingcolor = () => {
+    const hexVal =Math.floor(Math.random() * 0xffffff).toString(16);
+    const anotherColor = Math.floor(Math.random() * 0xffffff).toString(16);
    
     document.body.style.background = `#${hexVal}`;
     button3.style.backgroundColor= `#${anotherColor}`;
