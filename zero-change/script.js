@@ -1,24 +1,27 @@
-// ==================ZERO==============
-function changeFontSize(type){
+// // ==================ZERO==============
+// function changeFontSize(type){
     
-    const ids = ["#h"];
+//     const ids = ["#h"];
 
-    ids.forEach(id =>{
-        const el = document.querySelector(id);
+//     ids.forEach(id =>{
+//         const el = document.querySelector(id);
 
-        const fontSize = window.getComputedStyle(el , null).getPropertyValue("font-size");
+//         const fontSize = window.getComputedStyle(el , null).getPropertyValue("font-size");
 
-        fontSize = parseFloat(fontSize);
+//         fontSize = parseFloat(fontSize);
 
-        if(type ==="increase"){
-            el.style.fontSize =(fontSize + 5) + "px";
-        }else{
-            el.style.fontSize =(fontSize - 5) + "px";
-        }
-        // return
+//         if(type ==="increase"){
+//             el.style.fontSize =(fontSize + 5) + "px";
+//         }else{
+//             el.style.fontSize =(fontSize - 5) + "px";
+//         }
+//         return
 
-    });
-}
+//     });
+// }
+
+
+
 const btnClear= document.querySelector('#reset');
 const inputs = document.querySelectorAll('input');
 

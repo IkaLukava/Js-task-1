@@ -9,4 +9,11 @@ square.addEventListener("click", function(){
 
     square.style.left = `${randomWidth}`;
     square.style.top = `${randomHeight}`;
+    
+    const currentPosition = `${randomWidth},${randomHeight}`;
+    localStorage.setItem("squarePosition", currentPosition);
 });
+
+
+
+
