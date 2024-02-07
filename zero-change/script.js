@@ -51,3 +51,9 @@ btnReset.addEventListener('click',() =>{
 });
 
 
+$(document).ready(function () { 
+    $("#like").on("click", function () { 
+        $("#icon").toggleClass("red"); 
+        $("#icon").toggleClass("fa-solid"); 
+    }); 
+}); 
